@@ -8,7 +8,7 @@
     <link rel='stylesheet' href="style.css"
 </head>
 <body>
-        <form action='' method='get' class="personal_info">
+        <form onsubmit="event.preventDefault()" action='' method='get' class="personal_info">
                 <legend class="student_info">Student's Information</legend>
                 <div class="form-control">
                     <label for="name">Name:</label>
@@ -39,7 +39,7 @@
                     <textarea name='bio' rows='15' cols='60' placeholder="Description About You" id="bio"></textarea>
                 </div>
                <div class="form-action">
-                   <button>Submit</button>
+                   <button onclick="getValue()" id="btn">Submit</button>
                </div>
 
                
