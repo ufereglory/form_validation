@@ -56,7 +56,7 @@ function  getValue() {
         return
     }
 
-    let result = `Your details are: \nName: ${name} \nDepartment: ${dept} \nCourse: ${course} \nLevel: ${level} \nCountry: ${country} \nDate of birth: ${date} \nBio: ${bio}i `
+    let result = `Your details are: \nName: ${name} \nDepartment: ${dept} \nCourse: ${course} \nLevel: ${level} \nCountry: ${country} \nDate of birth: ${date} \nBio: ${bio}igi `
 
     alert(result)
     
